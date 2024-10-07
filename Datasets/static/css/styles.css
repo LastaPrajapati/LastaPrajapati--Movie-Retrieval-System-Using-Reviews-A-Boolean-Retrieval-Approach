@@ -1,0 +1,92 @@
+/* Body Styling */
+body {
+    background-color: #e7a0ca; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the search box */
+.container {
+    text-align: center;
+}
+
+/* Custom Logo Styling */
+.logo h1 {
+    font-size: 90px;
+    color: #7039a1;  /* Changed color to purple */
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Styling the search form */
+.search-form {
+    margin-top: 20px;
+}
+
+/* Search Box */
+.search-box {
+    width: 60%;
+    height: 44px;
+    border: 1px solid #e79ebd;
+    border-radius: 24px;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box:hover,
+.search-box:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+/* Search Button */
+.search-button {
+    display: none; /* Keep the button hidden, as the form will auto-submit */
+}
+
+/* Search Results */
+.results {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+.result-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.result-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.result-item h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.result-item p {
+    font-size: 16px;
+    color: lightgray;
+}
+
+.result-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* No Results */
+.no-results {
+    color: #545454;
+    font-size: 16px;
+}
